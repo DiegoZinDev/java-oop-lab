@@ -1,4 +1,4 @@
-package br.com.zinsoffice.oop.restaurant.Domain;
+package br.com.zinsoffice.oop.restaurant.domain;
 
 import java.math.BigDecimal;
 
@@ -7,16 +7,16 @@ public class Product {
     private final BigDecimal unitPrice;
 
     public Product(String name, BigDecimal unitPrice){
-        this.name = name;
-        this.unitPrice = unitPrice;
 
-        if(name == null || !name.equals("Pizza") && !name.equals("Pizza grande")){
+        if(name == null || name.isEmpty()){
             throw new IllegalArgumentException("Invalid product name");
         }
         if(unitPrice == null || unitPrice.compareTo(BigDecimal.ZERO) <= 0){
             throw new IllegalArgumentException("Invalid product unit price");
         }
 
+        this.name = name;
+        this.unitPrice = unitPrice;
     }
     public String getName() {
         return name;

@@ -22,7 +22,6 @@ Sistema de produtos de restaurante desenvolvido em Java puro.
 
 - Java 21
 - Maven
-- JUnit 5
 - Git e GitHub
 
 ## Status
