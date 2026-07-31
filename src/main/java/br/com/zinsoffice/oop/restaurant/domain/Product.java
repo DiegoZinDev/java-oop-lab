@@ -9,10 +9,10 @@ public class Product {
     public Product(String name, BigDecimal unitPrice){
 
         if(name == null || name.trim().isEmpty()){
-            throw new IllegalArgumentException("Invalid product name");
+            throw new IllegalArgumentException("Nome do produto inválido");
         }
         if(unitPrice == null || unitPrice.compareTo(BigDecimal.ZERO) <= 0){
-            throw new IllegalArgumentException("Invalid product unit price");
+            throw new IllegalArgumentException("Preço do produto inválido");
         }
 
         this.name = name.trim();
