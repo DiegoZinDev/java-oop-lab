@@ -6,14 +6,12 @@ import java.math.BigDecimal;
 public class Main {
     public static void main(String[] args) {
 
-        Product pizza = new Product("Pizza", BigDecimal.valueOf(29.99));
+        Product pizza = new Product("Pizza", new BigDecimal("29.99"));
 
-        Product pizzaGrande = new Product("Pizza grande", BigDecimal.valueOf(39.99));
+        Product pizzaGrande = new Product("Pizza grande", new BigDecimal("39.99"));
 
-        System.out.print(pizza.getName()+ " -- ");
-        System.out.println(pizza.getUnitPrice()+ "$");
+        System.out.println(pizza.getName() + " -- R$" + pizza.getUnitPrice());
 
-        System.out.print(pizzaGrande.getName()+ " -- ");
-        System.out.println(pizzaGrande.getUnitPrice()+ "$");
+        System.out.println(pizzaGrande.getName() + " -- R$" + pizzaGrande.getUnitPrice());
     }
 }
