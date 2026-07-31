@@ -16,7 +16,7 @@ Laboratório prático de aprendizado criado para consolidar e aumentar o nível 
 
 ## Primeiro módulo
 
-Sistema de pedidos de restaurante desenvolvido em Java puro.
+Sistema de produtos de restaurante desenvolvido em Java puro.
 
 ## Tecnologias
 
