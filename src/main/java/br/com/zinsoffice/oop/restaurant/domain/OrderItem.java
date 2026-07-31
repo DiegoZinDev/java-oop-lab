@@ -3,8 +3,8 @@ package br.com.zinsoffice.oop.restaurant.domain;
 import java.math.BigDecimal;
 
 public class OrderItem {
-    private Product product;
-    private int quantity;
+    private final Product product;
+    private final int quantity;
 
     public OrderItem(Product product, int quantity) {
 
@@ -20,10 +20,10 @@ public class OrderItem {
     }
 
     public BigDecimal calculateSubtotal(){
-       BigDecimal subTotal;
 
-        subTotal = product.getUnitPrice().multiply(BigDecimal.valueOf(quantity));
+        BigDecimal subTotal = product.getUnitPrice().multiply(BigDecimal.valueOf(quantity));
         return subTotal;
+
     }
 
     public Product getProduct() {

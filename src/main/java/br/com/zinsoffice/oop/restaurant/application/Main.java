@@ -17,19 +17,19 @@ public class Main {
         OrderItem pedido2 = new OrderItem(pizzaGrande, 4);
         OrderItem pedido3 = new OrderItem(pizzaExtraGrande, 2);
 
-        //Pedid1
+        //Pedido1
         System.out.println("Produto: " + pedido1.getProduct().getName());
         System.out.println("Quantidade: " + pedido1.getQuantity());
         System.out.println("Preço por U: R$ " + pedido1.getProduct().getUnitPrice());
         System.out.println("Subtotal: R$ " + pedido1.calculateSubtotal());
-        System.out.println("");
+        System.out.println();
 
         //Pedido2
         System.out.println("Produto: " + pedido2.getProduct().getName());
         System.out.println("Quantidade: " + pedido2.getQuantity());
         System.out.println("Preço por U: R$ " + pedido2.getProduct().getUnitPrice());
         System.out.println("Subtotal: R$ " + pedido2.calculateSubtotal());
-        System.out.println("");
+        System.out.println();
 
         //Pedido3
         System.out.println("Produto: " + pedido3.getProduct().getName());
