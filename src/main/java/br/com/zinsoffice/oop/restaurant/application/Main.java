@@ -12,8 +12,13 @@ public class Main {
 
         Product pizzaExtraGrande = new Product("   Pizza Extra Grande   ", new BigDecimal("49.99"));
 
-        System.out.println(pizza.getName() + " -- R$" + pizza.getUnitPrice());
-        System.out.println(pizzaGrande.getName() + " -- R$" + pizzaGrande.getUnitPrice());
-        System.out.print(pizzaExtraGrande.getName() + " -- R$" + pizzaExtraGrande.getUnitPrice());
+        System.out.println
+                (pizza.getName() + " -- R$" + pizza.getUnitPrice());
+
+        System.out.println
+                (pizzaGrande.getName() + " -- R$" + pizzaGrande.getUnitPrice());
+
+        System.out.println
+                (pizzaExtraGrande.getName() + " -- R$" + pizzaExtraGrande.getUnitPrice());
     }
 }
