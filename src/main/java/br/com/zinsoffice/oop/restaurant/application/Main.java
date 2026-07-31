@@ -10,8 +10,10 @@ public class Main {
 
         Product pizzaGrande = new Product("Pizza grande", new BigDecimal("39.99"));
 
-        System.out.println(pizza.getName() + " -- R$" + pizza.getUnitPrice());
+        Product pizzaExtraGrande = new Product("   Pizza Extra Grande   ", new BigDecimal("49.99"));
 
+        System.out.println(pizza.getName() + " -- R$" + pizza.getUnitPrice());
         System.out.println(pizzaGrande.getName() + " -- R$" + pizzaGrande.getUnitPrice());
+        System.out.print(pizzaExtraGrande.getName() + " -- R$" + pizzaExtraGrande.getUnitPrice());
     }
 }
