@@ -18,23 +18,28 @@ public class Main {
         OrderItem pedido3 = new OrderItem(pizzaExtraGrande, 2);
 
         //Pedido1
-        System.out.println("Produto: " + pedido1.getProduct().getName());
-        System.out.println("Quantidade: " + pedido1.getQuantity());
-        System.out.println("Preço por U: R$ " + pedido1.getProduct().getUnitPrice());
-        System.out.println("Subtotal: R$ " + pedido1.calculateSubtotal());
-        System.out.println();
+        //System.out.println("Produto: " + pedido1.getProduct().getName());
+       // System.out.println("Quantidade: " + pedido1.getQuantity());
+       // System.out.println("Preço por U: R$ " + pedido1.getProduct().getUnitPrice());
+       // System.out.println("Subtotal: R$ " + pedido1.calculateSubtotal());
+      //  System.out.println();
 
         //Pedido2
-        System.out.println("Produto: " + pedido2.getProduct().getName());
-        System.out.println("Quantidade: " + pedido2.getQuantity());
-        System.out.println("Preço por U: R$ " + pedido2.getProduct().getUnitPrice());
-        System.out.println("Subtotal: R$ " + pedido2.calculateSubtotal());
-        System.out.println();
+       // System.out.println("Produto: " + pedido2.getProduct().getName());
+       // System.out.println("Quantidade: " + pedido2.getQuantity());
+       // System.out.println("Preço por U: R$ " + pedido2.getProduct().getUnitPrice());
+       // System.out.println("Subtotal: R$ " + pedido2.calculateSubtotal());
+       // System.out.println();
 
         //Pedido3
-        System.out.println("Produto: " + pedido3.getProduct().getName());
-        System.out.println("Quantidade: " + pedido3.getQuantity());
-        System.out.println("Preço por U: R$ " + pedido3.getProduct().getUnitPrice());
-        System.out.println("Subtotal: R$ " + pedido3.calculateSubtotal());
+       // System.out.println("Produto: " + pedido3.getProduct().getName());
+        //System.out.println("Quantidade: " + pedido3.getQuantity());
+        //System.out.println("Preço por U: R$ " + pedido3.getProduct().getUnitPrice());
+        //System.out.println("Subtotal: R$ " + pedido3.calculateSubtotal());
+
+        Order Pedido1 = new itens(pizza, 3);
+
+        System.out.print(Pedido1"Pedido 1");
+
     }
 }
